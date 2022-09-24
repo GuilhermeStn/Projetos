@@ -1,9 +1,14 @@
 body{
-    background-color: beige;
+    background-image: url(Imagens/fundoprincipal.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     font-family: 'Courier New', Courier, monospace;
     color: darkslategrey;
 }
-
+h1{
+    text-align: center;
+}
 img#titulo{
     width: 1350px;
 }
@@ -11,9 +16,4 @@ img#contar{
     width: 250px;
     border-color: black;
     border-radius: 10mm;
-}
-header{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    width: 200px;
 }
